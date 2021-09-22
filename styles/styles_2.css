@@ -1,0 +1,202 @@
+body, header, nav, ul, li, div, footer, section {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+h2, h3, h4, p {
+  margin: 0;
+  padding: 10px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+
+nav div {
+  margin: 10px 30px;
+}
+
+div.logo{
+  margin-right: auto;
+}
+
+div.logo img{
+  
+  height: 50px;
+}
+
+nav div a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav div a:hover {
+  color: #CB997E;
+  text-decoration: none;
+}
+
+nav div button{
+  padding: 10px 20px;
+  border: 2px solid #CB997E;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #CB997E;
+  background-color: #4e2828;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav div button:hover {
+  background-color: #CB997E;
+  color: black;
+  cursor: pointer;
+}
+
+/*This was for our navigation*/
+
+
+.mission{
+  background-image: url('../img/chicago_dark.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  display: flex;
+  height: 500px;
+  padding-top: 35px;
+}
+
+.mission .content {
+  margin: auto;
+  color: #ffffff;
+  width: 100%;
+  text-shadow: 2px 2px 7px #000000;
+}
+
+.content{
+  margin: 0;
+  padding: 10px;
+}
+
+
+.type_of_properties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.properties {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.properties img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+div.properties span {
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+  color: #CB997E;
+}
+
+
+#team-container{
+  padding-top: 25px;
+}
+
+
+div.team {
+  background-image: url('../img/new_york_2_dark.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+div.teammate {
+  margin: 0 20px;
+  padding: 10px;
+  color: white;
+  flex-basis: 280px;
+  text-shadow: 2px 2px 7px #000000;
+}
+
+.teammate img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: auto;
+}   
+
+footer {
+  padding-top: 30px;
+}
+
+.copyright {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 530px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  nav {
+    display: block;
+    margin-bottom: 0 !important;
+  }
+   
+  nav div {
+    margin: 0
+  }
+
+  nav div.logo{
+    margin-left: 0;
+  }
+
+  nav div {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .properties {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  }
+
+}
+
+
